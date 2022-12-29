@@ -66,3 +66,46 @@ this is achieved using python's type conversions: str(), int(), float(), etc
 print('test' + str(demo1))
 #  if we want to include a space between 'test' and 17, all we need to do is add a space after test
 print('test ' + str(demo1))
+print()
+
+
+
+"""
+conditional statements are based on booleans, True or False
+this is where the previously mentioned == operator is often used
+the == operator evaluates to True if what is being compared is equal or the same, and False otherwise
+for example, (1 == 1) evaluates to True, while (2 == 3) evaluates to False
+we can evaluate other data types as well, such as strings
+printing these evaluations may be helpful
+"""
+
+print('Evaluate 1 == 1:')
+print(1 == 1)
+
+print('Evaluate 2 == 3:')
+print(2 == 3)
+
+print('Evaluate "thing1" == "thing2"')
+print('thing1' == 'thing2')
+
+print('Evaluate "thing1" == "thing1"')
+print('thing1' == 'thing1')
+print()
+
+"""
+one of the uses for conditionals is if statements
+'if this, do that'
+"""
+
+if 1 == 1:
+    print('1 is equal to 1')
+
+#  '1 is equal to 1' is printed because (1 == 1) evaluates to True
+
+"""
+to determine what is part of the if statement and what isn't, python uses indentation
+the print command in the if statement is indented by a tab, which tells python to run it if the conditional evaluates to True
+it is common practice for a single tab to be equal to 4 spaces
+this can be modified in your editor's settings
+"""
+    
